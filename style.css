@@ -1,0 +1,469 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contenar {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* .header-section */
+
+.menu ul {
+    list-style: none;
+    text-align: right;
+
+}
+
+.header-section img {
+    width: 100%;
+}
+
+.header-section a {
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.header-section a:hover {
+    color: gray;
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+
+}
+
+.header-section li {
+    display: inline-block;
+    padding-right: 50px;
+}
+
+.header-section .wrap {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+/* Banner Section */
+
+/* .banner-section{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+} */
+
+.banner-section img {
+    height: 790px;
+    width: 100%;
+}
+
+/* Coruse Section */
+
+.coruse-section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.coruse-section .wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.coruse-section img {
+    width: 100%;
+    height: 250px;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.text-heading {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 50px;
+}
+
+.coruse-section .img-type {
+    /* border: 1px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+    padding-bottom: 1rem;
+    border-radius: 1rem;
+}
+
+.coruse-section h2 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.coruse-section p {
+    line-height: 1.5rem;
+}
+
+/* Feedback Section */
+
+.feedback-section {
+    background-color: rgb(216, 216, 216);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.feedback-section .wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    padding-bottom: 1rem;
+}
+
+.feedback-section img {
+    width: 100%;
+    height: 350px;
+    border-radius: 50%;
+}
+
+.feedback-section h3 {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.feedback-section p {
+    text-align: justify;
+    line-height: 2rem;
+}
+
+/* Gallary Section */
+
+.gallary-section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.gallary-section .wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+
+}
+
+.gallary-section img {
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 1rem;
+}
+
+/* Footer */
+
+.socket {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: black;
+    color: white;
+    margin-top: 2rem;
+}
+
+.socket a {
+    text-decoration: none;
+    color: white;
+}
+
+.socket a:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    color: rgb(253, 10, 2);
+}
+
+
+/* About Page Banner Section */
+.inner-banner {
+    background-image: url(./assets/inner-banner.jpg);
+    background-size: cover;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.inner-banner h1 {
+    color: white;
+    font-size: 30px;
+}
+
+.inner-banner p {
+    color: white;
+    font-size: 15px;
+}
+
+/* About Page welcome section */
+
+.welcome-section {
+    background-image: url(./assets/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.welcome-section .contenar {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.welcome-section .wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+}
+
+.welcome-section span {
+    color: #173a69;
+}
+
+.welcome-section img {
+    width: 100%;
+}
+
+.welcome-section .contant img {
+    width: auto;
+}
+
+.welcome-section h3 {
+    padding-bottom: 1rem;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.welcome-section p {
+    line-height: 1.5rem;
+    text-align: justify;
+    padding-top: 1rem;
+}
+
+/* About Page Service section */
+
+.service-section {
+    background-image: url(./assets/Background1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.service-section .contenar {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.service-section .wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    text-align: center;
+}
+
+.service-section .flex-coloumn {
+    background-color: white;
+    padding: 45px 20px;
+}
+
+.service-section h3 {
+    padding-bottom: 10px;
+    font-size: 24pt;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #173a69;
+}
+
+.service-section p {
+    font-size: 15px;
+    line-height: 22px;
+    text-align: justify;
+    padding-top: 10px;
+}
+
+.service-section span {
+    color: #173a69;
+}
+
+/* About page gap section */
+
+.gap-section span {
+    color: #173a69;
+}
+
+.gap-section h3 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 28px;
+    text-align: center;
+}
+
+/* About page item section */
+
+.item-section {
+    background-image: url(./assets/Background3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.item-section .wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    text-align: center;
+}
+
+.item-section h3 {
+    color: #173a69;
+    padding-bottom: 10px;
+}
+
+.item-section .contenar {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.item-section img {
+    padding-bottom: 20px;
+}
+
+.item-section p {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+/* About page getstart section */
+
+.getstart-section {
+    background-color: #173a69;
+}
+
+.getstart-section p{
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 16px;
+}
+
+.getstart-section a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.getstart-section a:hover{
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    color: red;
+}
+
+/* About page footer */
+
+.footer img{
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.footer .wrap{
+    text-align: center;
+
+}
+
+.logo-img{
+    height: 60px;
+}
+
+/* .footer .imge{
+     text-align: center; 
+    margin-bottom: 30px; 
+} */
+
+.footer i{
+    border: 1px solid #7f7f7f;
+    font-size: 30px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    color: #7f7f7f;
+}
+
+.footer .fa-twitter{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+/* Comtact Page */
+
+
+.contact-section{
+    padding: 80px 0px 0px 0px;
+}
+
+.contact-section .wrap{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 2rem;
+    
+}
+
+.contact-section h2,p{
+    margin-bottom: 1rem;
+}
+
+
+.contact-section .name-email{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+.contact-section input{
+    width: 100%; 
+    font-size: 15px;
+    padding: 10px;
+    margin-bottom: 20px; 
+    box-sizing: border-box;
+}
+
+.contact-section textarea{
+    width: 100%;
+    resize: none;
+    font-size: 15px;
+    height: 130px;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.contact-section .submit-btn{
+    width: auto;
+    background-color: #173a69;
+    border: none;
+    padding: 15px 30px;
+    color: white;
+}
+
+.contact-section ul{
+    list-style: none;
+}
+
+.contact-section a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    line-height: 35px;
+    padding-left: 15px;
+}
+
+.contact-section strong{
+    color: #173a69;
+}
+
+.contact-section a:hover{
+    color: blue;
+    text-underline-offset: 0.5rem;
+}
