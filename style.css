@@ -467,3 +467,61 @@
     color: blue;
     text-underline-offset: 0.5rem;
 }
+
+/* Service Page */
+
+.service-section-new .contenar{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.service-section-new .wrap{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.service-section-new h3{
+    padding-bottom: 15px;
+}
+
+.service-section-new p{
+    padding-top: 15px;
+    font-size: 14px;
+}
+
+
+/* Service Page Gallary */
+
+.service-gallary{
+    background-color: #f8f8f8;
+}
+
+.service-gallary .contenar{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+.service-gallary .wrap{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.service-gallary h3{
+    color: #173a69;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.service-gallary p{
+    line-height: 25px;
+    text-align: justify;
+}
